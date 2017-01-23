@@ -1,9 +1,9 @@
 languageCode = "en-us"
 title = "Sketchnote"
-baseurl = "https://slq.github.io/sketchnote/"
+baseurl = "https://slq.github.io/"
 
 paginate = 5
-DisqusShortname = "disqus_AEkrEBjFkY"
+DisqusShortname = "sketchnote-1"
 Copyright = "All rights reserved - 2017"
 canonifyurls = true
 
