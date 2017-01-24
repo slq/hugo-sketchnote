@@ -4,11 +4,11 @@ date = "2017-01-23T22:08:12+02:00"
 draft = false
 title = "Interesting sites"
 slug = "interesting-sites"
-tags = ["recommendations","sketchnote"]
+# tags = ["recommendations","sketchnote"]
 image = "images/book.jpg"
 comments = true     # set false to hide Disqus comments
 share = true        # set false to share buttons
-menu = "main"       # set "main" to add this content to the main menu
+menu = ""       # set "main" to add this content to the main menu
 +++
 
 <br><br>

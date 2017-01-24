@@ -14,24 +14,7 @@ canonifyurls = true
   weight = -120
 
 [[menu.main]]
-  name = "Github repos"
-  pre = "<h3>Follow me</h3>"
-  url = "https://github.com/slq"
-  weight = 100
-
-[[menu.main]]
-  name = "Twitter timeline"
-  url = "https://twitter.com/slawek_pl"
-  weight = 101
-
-[[menu.main]]
-  name = "Flipboard magazines"
-  url = "https://flipboard.com/@vjeantet"
-  weight = 102
-
-[[menu.main]]
   name = "Keybase (secure msg)"
-  pre = "<h3>Contact me</h3>"
   url = "https://Keybase.io/vjeantet"
   weight = 109
 
@@ -42,16 +25,18 @@ canonifyurls = true
   authorlocation = "Wroclaw, Poland"
   authorwebsite = "http://vjeantet.fr"
   bio= "IT Software Engineer, Java & Scala & Go enthusiast."
-  logo = "images/logo.png"
+  logo = "images/hugo-icon.png"
   googleAnalyticsUserID = "UA-79101-12"
   
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = "http://feeds.feedburner.com/..."
   
   githubName = "slq"
+  # gitlabName =  
+  # telegramName = 
   twitterName = "slawek_pl"
   # facebookName = ""
-  # linkedinName = ""
+  linkedinName = "sławomir-plamowski-5ab02728"
   
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
