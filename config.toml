@@ -1,53 +1,53 @@
-languageCode = "en-us"
-title = "Sketchnote"
 baseurl = "https://slq.github.io/"
+title = "Sketchnote"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "My Name"
+googleAnalytics = "XXX"
+disqusShortname = "sketchnote-1"
 
-paginate = 5
-DisqusShortname = "sketchnote-1"
-Copyright = "All rights reserved - 2017"
-canonifyurls = true
+[Author]
+    name = "Slawek Plamowski"
+    profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Slawek Plamowski"
+    description = "IT Software Engineer, Java & Scala & Go enthusiast."
+    github = "https://github.com/slq"
+    gitlab = "https://gitlab.com/slq"
+    linkedin = "https://linkedin.com/in/sławomir-plamowski-5ab02728/"
+    gplus = "https://google.com/slawek.plamowski"
+    twitter = "https://twitter.com/slawek_pl"
+    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "slawek.plamowski@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "/"
-  weight = -120
+    name = "Blog"
+    url = "/"
+    weight = 1
 
 [[menu.main]]
-  name = "Keybase (secure msg)"
-  url = "https://Keybase.io/vjeantet"
-  weight = 109
+    name = "Projects"
+    url = "/project/"
+    weight = 2
 
-[params]
-  description = "this is my description"
-  cover = "images/cover_polenord.jpg"
-  author = "Slawek PLAMOWSKI"
-  authorlocation = "Wroclaw, Poland"
-  authorwebsite = "http://vjeantet.fr"
-  bio= "IT Software Engineer, Java & Scala & Go enthusiast."
-  logo = "images/hugo-icon.png"
-  googleAnalyticsUserID = "UA-79101-12"
-  
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/..."
-  
-  githubName = "slq"
-  # gitlabName =  
-  # telegramName = 
-  twitterName = "slawek_pl"
-  # facebookName = ""
-  linkedinName = "sławomir-plamowski-5ab02728"
-  
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
-  
-  [params.social]
-    twitter = "slawek_pl"
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
 
-  [permalinks]
-    post = "/:slug/"
-
-  [sitemap]
-    ChangeFreq = ""
-    Filename = "sitemap.xml"
-    Priority = "-1"
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
