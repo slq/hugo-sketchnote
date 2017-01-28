@@ -1,3 +1,10 @@
++++
+title = "How to reassign tuple values"
+description = "In Scala, how to reassign tuples?"
+date = 2017-01-28T11:55:50Z
+author = "Slawek Plamowski"
++++
+
 If you would like to _update_ tuple values in Scala, like this:
 
 ```scala
